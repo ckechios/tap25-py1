@@ -1,4 +1,6 @@
 # This is a single line comment
+# import modtest
+from modtest import hello_mod2, hello_mod, version as hmv
 
 # Data types
 n = 5
@@ -68,3 +70,9 @@ for i in range(2,11,2):
     print(i)
 
 # range(starting number, ending number, step by)
+
+print("-" * 40)
+# print(modtest.hello_mod("TAP"))
+print(hello_mod("TAP"))
+print(hello_mod2("TAP-2025"))
+print(f"Hello mod version is {hmv}")
