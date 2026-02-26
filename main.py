@@ -50,3 +50,21 @@ print(f"8/2={divide(8,2)}")
 
 print(f"8/0={divide(8,0)}")
 
+print()
+print("-"*35)
+print()
+
+for i in range(11):
+    print(i)
+
+print("-"*35)
+
+for i in range(5,11):
+    print(i)
+
+print("-"*35)
+
+for i in range(2,11,2):
+    print(i)
+
+# range(starting number, ending number, step by)
