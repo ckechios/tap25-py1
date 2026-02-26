@@ -1,0 +1,6 @@
+Write a python program that calculates life insurance premium cumulatively based on the following:
+    1. Term - Number of years for the policy
+    2. Age
+    3. Health / Illness
+    4. Habits - Good or Bad. Example (Intoxication, Life Style etc. - You can have upto a maximum of 5 factors)
+    5. Feel free to add any additional variation to calculate premium
